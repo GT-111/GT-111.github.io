@@ -1,0 +1,410 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>郭赫天 | Personal Homepage</title>
+    <meta
+      name="description"
+      content="郭赫天的个人主页，聚焦具身智能、机器人系统、智能交通系统与多智能体建模。"
+    />
+    <meta
+      name="keywords"
+      content="郭赫天, Embodied AI, Vision-Language-Action, Intelligent Transportation Systems, Robotics"
+    />
+    <meta name="theme-color" content="#12343b" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Noto+Sans+SC:wght@400;500;700;800&family=Sora:wght@400;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="page-shell">
+      <header class="site-header">
+        <a class="brand" href="#top">
+          <span class="brand-mark">GH</span>
+          <span class="brand-copy">
+            <strong>郭赫天</strong>
+            <span>Embodied AI · Robotics · ITS</span>
+          </span>
+        </a>
+
+        <div class="header-actions">
+          <nav class="site-nav" aria-label="主导航">
+            <a href="#about">简介</a>
+            <a href="#research">研究方向</a>
+            <a href="#experience">经历</a>
+            <a href="#publications">项目与论文</a>
+            <a href="#skills">技术能力</a>
+            <a href="#contact">联系</a>
+          </nav>
+
+          <div class="utility-links">
+            <a
+              class="cv-link"
+              href="assets/CV_HetianGuo.pdf"
+              target="_blank"
+              rel="noopener"
+            >
+              简历 PDF
+            </a>
+            <div class="lang-switch" aria-label="语言切换">
+              <a class="lang-option is-current" href="index.html" aria-current="page">中文</a>
+              <a class="lang-option" href="index-en.html" lang="en">EN</a>
+            </div>
+          </div>
+        </div>
+      </header>
+
+      <main id="top">
+        <section class="hero section">
+          <div class="hero-copy reveal">
+            <p class="eyebrow">Personal Homepage</p>
+            <h1>
+              郭赫天
+              <span>具身智能、机器人系统与智能交通研究</span>
+            </h1>
+            <p class="hero-lead">
+              目前的工作重心是具身智能中的策略学习、双臂/人形 VLA
+              系统与机器人任务规划执行框架。同时，我也在智能交通系统方向积累了多智能体轨迹预测、交通流建模与协同仿真方面的研究经验。
+            </p>
+            <div class="hero-actions">
+              <a class="button button-primary" href="mailto:hetianguoml@gmail.com">邮件联系</a>
+              <a class="button button-secondary" href="#publications">查看研究项目</a>
+              <a
+                class="button button-secondary"
+                href="assets/CV_HetianGuo.pdf"
+                target="_blank"
+                rel="noopener"
+              >
+                查看简历
+              </a>
+            </div>
+          </div>
+
+          <aside class="hero-panel reveal">
+            <div class="hero-card hero-card-accent">
+              <p class="card-label">当前阶段</p>
+              <h2>AI 算法实习生</h2>
+              <p class="hero-card-meta">深圳市道和通泰机器人有限公司 · 2026.01 至今</p>
+              <p class="hero-card-note">
+                拟于 2026 年 8 月入学吉林大学人工智能学院攻读博士
+              </p>
+            </div>
+
+            <div class="hero-mini-grid">
+              <article class="mini-card">
+                <span>当前研究重点</span>
+                <strong>具身智能、双臂/人形 VLA、机器人任务规划与执行</strong>
+              </article>
+              <article class="mini-card">
+                <span>研究背景</span>
+                <strong>智能交通系统、轨迹预测、交通流建模与协同仿真</strong>
+              </article>
+            </div>
+          </aside>
+        </section>
+
+        <section id="about" class="section two-column">
+          <div class="section-heading reveal">
+            <p class="eyebrow">About</p>
+            <h2>研究兴趣与个人概述</h2>
+          </div>
+          <div class="section-body reveal">
+            <p>
+              我的研究兴趣集中在具身智能、Vision-Language-Action
+              模型、潜在世界模型、多智能体系统，以及机器人智能体操作系统。当前工作中，我参与搭建机器人智能体操作系统，将语言理解、导航、动作生成、语音交互等能力组织为可复用的 skills，并推进它们在宇树 G1
+              等平台上的落地。同时，我也在结合潜在世界模型构建具有未来感知能力的 VLA
+              框架，以增强模型对未来状态演化的建模能力。
+            </p>
+            <p>
+              在智能交通系统方向，我也开展过多智能体轨迹预测、交通流与占用预测、遥感驱动的车道级路网提取，以及基于仿真与车辆动力学建模的能耗评估等研究工作。
+            </p>
+          </div>
+        </section>
+
+        <section id="research" class="section">
+          <div class="section-heading reveal">
+            <p class="eyebrow">Focus</p>
+            <h2>研究方向</h2>
+          </div>
+          <div class="focus-grid">
+            <article class="focus-card reveal">
+              <span class="focus-index">01</span>
+              <h3>具身智能与 VLA 系统</h3>
+              <p>
+                关注双臂与人形机器人中的策略学习、VLA
+                框架复现、动作生成与真机部署，强调语言交互、感知建模与执行链路之间的系统化协同。
+              </p>
+            </article>
+            <article class="focus-card reveal">
+              <span class="focus-index">02</span>
+              <h3>潜在世界模型与机器人操控</h3>
+              <p>
+                探索将潜在世界模型引入机器人操控框架，在多源异构数据上建模未来状态演化，以提升策略的泛化性、时序建模能力与物理一致性。
+              </p>
+            </article>
+            <article class="focus-card reveal">
+              <span class="focus-index">03</span>
+              <h3>智能交通与多智能体时空建模</h3>
+              <p>
+                研究复杂交通场景中的轨迹预测、交通流建模、路网结构提取与协同仿真，将多主体交互、高精地图和时空依赖统一到可解释的学习框架中。
+              </p>
+            </article>
+          </div>
+        </section>
+
+        <section id="experience" class="section">
+          <div class="section-heading reveal">
+            <p class="eyebrow">Timeline</p>
+            <h2>教育经历与实习经历</h2>
+          </div>
+          <div class="experience-columns">
+            <div class="experience-group reveal">
+              <h3 class="experience-group-title">教育经历</h3>
+              <article class="entry-card">
+                <div class="entry-date">2026.08 起</div>
+                <h4>吉林大学人工智能学院</h4>
+                <p class="entry-meta">工学博士 · 人工智能专业 · 长春，中国</p>
+                <p>
+                  拟于 2026 年 8 月入学，研究兴趣包括具身智能、双臂/人形 VLA
+                  算法与具身多智能体系统。
+                </p>
+              </article>
+              <article class="entry-card">
+                <div class="entry-date">2024 — 2025</div>
+                <h4>佐治亚大学（University of Georgia）</h4>
+                <p class="entry-meta">理学硕士 · 工程学（机械工程方向） · Athens, GA, USA</p>
+                <p>
+                  研究智能交通系统、自动驾驶与协同仿真，导师为 Prof. Yunli
+                  Shao。
+                </p>
+              </article>
+              <article class="entry-card">
+                <div class="entry-date">2020 — 2024</div>
+                <h4>南方科技大学</h4>
+                <p class="entry-meta">工学学士 · 计算机科学与技术 · 深圳，中国</p>
+                <p>本科阶段主要关注时空数据挖掘与交通预测问题。</p>
+              </article>
+            </div>
+
+            <div class="experience-group reveal">
+              <h3 class="experience-group-title">实习经历</h3>
+              <article class="entry-card">
+                <div class="entry-date">2026.01 至今</div>
+                <h4>深圳市道和通泰机器人有限公司</h4>
+                <p class="entry-meta">AI 算法实习生 · 深圳，中国</p>
+                <p>
+                  基于 Aggno 与 Qwen 系列模型设计具身大小脑协同策略系统，将
+                  TTS、VLA、Navigation
+                  等能力抽象成技能模块，并基于 Pipecat
+                  搭建在线语音交互智能体，推动从自然语言输入到机器人动作执行的闭环部署。
+                </p>
+              </article>
+              <article class="entry-card">
+                <div class="entry-date">2023.08 — 2023.10</div>
+                <h4>LocationMind Inc.</h4>
+                <p class="entry-meta">研究实习生 · 东京，日本</p>
+                <p>
+                  负责 AIS
+                  数据清洗、轨迹重建与船舶行为识别模型构建，并基于轨迹聚类和空间统计方法提取关键海事节点。
+                </p>
+              </article>
+              <article class="entry-card">
+                <div class="entry-date">2022.07 — 2022.08</div>
+                <h4>深圳计算科学研究院</h4>
+                <p class="entry-meta">研究实习生 · 深圳，中国</p>
+                <p>
+                  构建多源时序数据清洗与因果发现工作流，复现并评估 PC、GES、NOTEARS
+                  等算法，用于复杂系统依赖关系分析。
+                </p>
+              </article>
+            </div>
+          </div>
+        </section>
+
+        <section id="publications" class="section">
+          <div class="section-heading reveal">
+            <p class="eyebrow">Selected Work</p>
+            <h2>项目经历与论文发表</h2>
+          </div>
+          <div class="project-grid">
+            <article class="project-card reveal featured-card">
+              <div class="project-topline">
+                <span class="project-tag">Ongoing</span>
+                <span class="project-year">2026</span>
+              </div>
+              <h3>面向机器人操控的潜在世界模型 VLA 框架研究</h3>
+              <p>
+                针对 VLA
+                缺乏时序建模与物理先验的问题，探索将潜在世界模型引入机器人操控流程，并利用跨机器人、多源异构数据进行预训练，提升策略的泛化能力与未来状态推断能力。
+              </p>
+            </article>
+
+            <article class="project-card reveal">
+              <div class="project-topline">
+                <span class="project-tag">ICTD</span>
+                <span class="project-year">2026</span>
+              </div>
+              <h3>基于高分辨率遥感影像的车道级路网自动提取</h3>
+              <p>
+                提出面向交通数字孪生的车道级路网提取框架，并设计启发式路口拓扑连接推理算法，支持导出 OpenDRIVE 与 SUMO
+                等标准网络格式。
+              </p>
+              <p class="publication-ref">
+                <strong>Guo, H.</strong>, Shao, Y., Saroj, A., Xu, G., Yuan, J.,
+                Luo, X., Wang, C. (2026). Automatic lane-level road network
+                extraction from aerial imagery for transportation digital twins.
+                <em>ICTD</em>.
+              </p>
+            </article>
+
+            <article class="project-card reveal">
+              <div class="project-topline">
+                <span class="project-tag">TRB</span>
+                <span class="project-year">2025</span>
+              </div>
+              <h3>基于在环协同仿真的车辆动力学能耗评估</h3>
+              <p>
+                构建 XIL 协同仿真框架，集成 SUMO、互联车辆控制器与 Simulink
+                车辆动力学模型，分析动力学建模颗粒度与渗透率变化对系统能耗评估的影响。
+              </p>
+              <p class="publication-ref">
+                Yuan, J., <strong>Guo, H.</strong>, Shao, Y., Xu, G., Saroj, A.,
+                Wang, C. (2025). Impact of vehicle dynamics on the energy
+                evaluation of connected and automated vehicles via
+                anything-in-the-loop co-simulation. <em>TRB Annual Meeting</em>.
+              </p>
+            </article>
+
+            <article class="project-card reveal">
+              <div class="project-topline">
+                <span class="project-tag">MECC</span>
+                <span class="project-year">2025</span>
+              </div>
+              <h3>交通流感知的占用预测</h3>
+              <p>
+                面向能耗优化与协同控制型互联车辆应用，提出交通流感知占用预测框架，显式建模相邻路段之间的时空耦合关系，以提升长时预测一致性。
+              </p>
+              <p class="publication-ref">
+                <strong>Guo, H.</strong>, Shao, Y. (2025). Traffic flow aware
+                occupancy prediction for energy and mobility centric connected
+                and automated vehicles. <em>MECC</em>.
+              </p>
+            </article>
+
+            <article class="project-card reveal">
+              <div class="project-topline">
+                <span class="project-tag">TR Part E</span>
+                <span class="project-year">2024</span>
+              </div>
+              <h3>基于 AIS 数据的海事交通流预测</h3>
+              <p>
+                构建端到端海事交通流预测框架，将交通流分解为趋势项与周期项，并联合建模时空与动静态依赖，兼顾预测精度与可解释性。
+              </p>
+              <p class="publication-ref">
+                Yuan, Y., <strong>Guo, H.</strong>, Fan, Z., Peng, Y., Zhang,
+                J., Song, X., Shibasaki, R. (2024). A decomposable multi-fusion
+                spatiotemporal marine traffic flow forecasting algorithm.
+                <em>Transportation Research Part E</em>.
+              </p>
+            </article>
+
+            <article class="project-card reveal">
+              <div class="project-topline">
+                <span class="project-tag">ICRA</span>
+                <span class="project-year">2024</span>
+              </div>
+              <h3>基于异质超图的多智能体车辆轨迹预测</h3>
+              <p>
+                提出 HHGNN，通过异质超图刻画复杂交通场景中的高阶群体交互，设计类型感知的双层消息传递机制，并融合局部高精地图信息。
+              </p>
+              <p class="publication-ref">
+                <strong>Guo, H.</strong>, Peng, Y., Fan, Z., Zhu, H., Song, X.
+                (2024). HHGNN: Heterogeneous hypergraph neural network for
+                traffic agents trajectory prediction in complex scenarios.
+                <em>IEEE ICRA</em>.
+              </p>
+            </article>
+          </div>
+        </section>
+
+        <section id="skills" class="section">
+          <div class="section-heading reveal">
+            <p class="eyebrow">Capabilities</p>
+            <h2>技术能力</h2>
+          </div>
+          <div class="skills-grid">
+            <article class="skill-card reveal">
+              <h3>编程与工程</h3>
+              <ul>
+                <li>Python, C++, MATLAB</li>
+                <li>PyTorch, PyTorch Lightning</li>
+                <li>Hugging Face Transformers / Diffusers / Accelerate</li>
+              </ul>
+            </article>
+            <article class="skill-card reveal">
+              <h3>深度学习与机器人</h3>
+              <ul>
+                <li>ROS / ROS2</li>
+                <li>Vision-Language-Action Models</li>
+                <li>Policy Learning, Imitation Learning, Inference & Fine-tuning</li>
+              </ul>
+            </article>
+            <article class="skill-card reveal">
+              <h3>具身智能经验</h3>
+              <ul>
+                <li>复现 PI0 / PI0.5、F1-VLA、VLA-OS 等双臂 VLA baselines</li>
+                <li>人形机器人策略部署、遥操作与真机执行经验</li>
+                <li>完成宇树 G1 的策略接入与控制链路搭建</li>
+              </ul>
+            </article>
+            <article class="skill-card reveal">
+              <h3>数据与系统能力</h3>
+              <ul>
+                <li>处理 AgiBot、InternData、RobotWin、EgoDex 等数据集</li>
+                <li>具备技能抽象、任务编排与多模态交互链路搭建经验</li>
+                <li>面向机器人任务规划与执行的系统设计</li>
+              </ul>
+            </article>
+            <article class="skill-card reveal">
+              <h3>仿真与交通系统</h3>
+              <ul>
+                <li>SUMO, CARLA, Vissim</li>
+                <li>Simulink, IPG-CarMaker</li>
+                <li>交通流建模、轨迹预测与协同仿真</li>
+              </ul>
+            </article>
+          </div>
+        </section>
+
+        <section id="contact" class="section contact-section">
+          <div class="contact-card reveal">
+            <div>
+              <p class="eyebrow">Contact</p>
+              <h2>欢迎联系交流</h2>
+              <p>
+                如果你对具身智能、机器人系统、VLA、智能交通系统或跨领域研究合作感兴趣，欢迎直接邮件联系我。
+              </p>
+            </div>
+            <div class="contact-links">
+              <a href="mailto:hetianguoml@gmail.com">hetianguoml@gmail.com</a>
+              <a href="tel:+8618682398096">+86 186 8239 8096</a>
+              <a href="assets/CV_HetianGuo.pdf" target="_blank" rel="noopener">查看简历 PDF</a>
+            </div>
+          </div>
+        </section>
+      </main>
+
+      <footer class="site-footer">
+        <p>© 2026 郭赫天 · Built for GitHub Pages</p>
+        <a href="#top" aria-label="回到顶部">Back to top</a>
+      </footer>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
